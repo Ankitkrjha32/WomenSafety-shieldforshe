@@ -35,7 +35,7 @@ const NotFound = () => {
                 <h1 className="not-found-heading">
                     <span className="text-danger fs-1">Under Process</span>
                     <br />
-                    Feature is currently available on mobile only
+                    
                 </h1>
             </div>
             <Footer />

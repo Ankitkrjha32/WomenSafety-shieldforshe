@@ -90,7 +90,12 @@ const Navbar = () => {
                                     </Link>
                                     <Link to='/street-light' style={{ textDecoration: 'none' }}>
                                         <li className="nav-item">
-                                            <a className="nav-link " aria-current="page"> Street Light Feature <span className="new-badge">New</span></a>
+                                            <a className="nav-link " aria-current="page"> Street Light Feature</a>
+                                        </li>
+                                    </Link>
+                                    <Link to='/crime-zones' style={{ textDecoration: 'none' }}>
+                                        <li className="nav-item">
+                                            <a className="nav-link " aria-current="page"> Crime Zones</a>
                                         </li>
                                     </Link>
                                     </ul>
@@ -159,7 +164,17 @@ const Navbar = () => {
                                     </Link>
                                     <Link to='/street-light' style={{ textDecoration: 'none' }}>
                                         <li className="nav-item">
-                                            <a className="nav-link " aria-current="page"> Street Light Feature <span className="new-badge">New</span></a>
+                                            <a className="nav-link " aria-current="page"> Street Light Feature</a>
+                                        </li>
+                                    </Link>
+                                    <Link to='/crime-zones' style={{ textDecoration: 'none' }}>
+                                        <li className="nav-item">
+                                            <a className="nav-link " aria-current="page">Crime Zones</a>
+                                        </li>
+                                    </Link>
+                                    <Link to='/teams' style={{ textDecoration: 'none' }}>
+                                        <li className="nav-item">
+                                            <a className="nav-link " aria-current="page">Meet Our Team</a>
                                         </li>
                                     </Link>
                                 </ul>

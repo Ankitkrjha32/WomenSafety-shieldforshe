@@ -17,6 +17,8 @@ import ChatScreen from './pages/ChatScreen'
 import HeroCaro from './pages/HeroCaro';
 import SheRide from './pages/SheRide';
 import StreetLight from './pages/StreetLight';
+import CrimeZones from './pages/CrimeZones';
+import Teams from './pages/Teams';
 function App() {
   return (
     <Router>
@@ -37,6 +39,8 @@ function App() {
       <Route path='/closedreport' element={<CloseFile/>} />
       <Route path='/chat' element={<ChatScreen/>} />
       <Route path='/street-light' element={<StreetLight/>} />
+      <Route path='/crime-zones' element={<CrimeZones/>} />
+      <Route path='/teams' element={<Teams/>} />
       </Routes>
       <Toaster />
     </Router>

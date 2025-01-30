@@ -32,12 +32,12 @@
   color: #101010;
 }
 .features_wrapper .ft-1 {
-  background: #e9d44b;
+  background: #1ad0d6;
   padding: 40px;
   border-radius: 15px;
 }
 .features_wrapper .ft-2 {
-  background: #6cdf78;
+  background: #fa8eee;
   padding: 40px;
   border-radius: 15px;
 }
@@ -67,4 +67,5 @@
   100% {
     transform: translatey(0px);
   }
-}
+} 
+

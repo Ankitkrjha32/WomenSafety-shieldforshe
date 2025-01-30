@@ -1,8 +1,8 @@
 .learn-more-btn {
-  background-color: blueviolet !important;
-  font-size: 18px !important;
+  background-color: rgb(255, 98, 255) !important;
+  font-size: 13px !important;
   font-weight: 700 !important;
-  color: whitesmoke !important;
+  color: rgb(21, 12, 12) !important;
   padding: 12px 29px !important;
   border-radius: 10px !important;
   border: 2px solid blueviolet !important;
@@ -65,12 +65,12 @@
 }
 .header_wrapper .nav-item .nav-link {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 13px;
   color: grey;
   line-height: 1;
 }
 .header_wrapper .nav-item .nav-link.active {
-  color: blueviolet;
+  color: rgb(152, 66, 232);
 }
 .header-scrolled {
   position: fixed;
