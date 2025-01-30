@@ -12,7 +12,7 @@
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 15px;
-  color: rgb(67, 29, 164);
+  color: rgb(164, 123, 29);
 }
 .banner_wrapper .banner-title {
   font-weight: 800;
@@ -35,9 +35,23 @@
 }
 .banner_wrapper .learn-more-btn-section {
   display: flex;
+  
   justify-content: left;
   align-items: center;
   margin-top: 20px;
+}
+.learn-more-btn-section .learn-more-btn {
+  background-color: #d11a2a;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: whitesmoke !important;
+  padding: 12px 29px !important;
+  border-radius: 10px !important;
+  /* border: 2px solid blueviolet !important; */
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%) !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  transition: 0.7s !important;
 }
 .banner_wrapper .header-img-section img {
   width: 100%;
@@ -71,6 +85,7 @@
   }
   .banner_wrapper .learn-more-btn-section {
     justify-content: center;
+    /* background-color: #d11a2a; */
   }
 }
 
@@ -81,7 +96,7 @@
 }
 
 .shape-fill {
-  fill: #8400ff;
+  fill: #c0abd3;
   padding: 0 !important;
   margin-top: -1px !important;
 }
