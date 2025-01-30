@@ -23,7 +23,7 @@
   color: #101010;
 }
 .banner_wrapper .banner-title span {
-  color: blueviolet;
+  color: rgb(224, 50, 175);
 }
 .banner_wrapper .banner-title-text {
   font-size: 17px;
@@ -33,6 +33,7 @@
   max-width: 450px;
   color: rgb(84, 84, 84);
 }
+
 .banner_wrapper .learn-more-btn-section {
   display: flex;
   
@@ -41,18 +42,34 @@
   margin-top: 20px;
 }
 .learn-more-btn-section .learn-more-btn {
-  background-color: #d11a2a;
-  font-size: 18px !important;
+  background-color: rgb(216, 15, 15) !important;
+  font-size: 20px !important;
   font-weight: 700 !important;
   color: whitesmoke !important;
   padding: 12px 29px !important;
   border-radius: 10px !important;
-  /* border: 2px solid blueviolet !important; */
+  border: 2px solid rgb(199, 31, 64) !important;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%) !important;
   display: inline-block !important;
   text-decoration: none !important;
   transition: 0.7s !important;
 }
+/* // */
+/* .learn-more-btn {
+  background-color: rgb(216, 15, 15) !important;
+  font-size: 8px !important;
+  font-weight: 700 !important;
+  color: whitesmoke !important;
+  padding: 12px 29px !important;
+  border-radius: 10px !important;
+  border: 2px solid rgb(199, 31, 64) !important;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%) !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  transition: 0.7s !important;
+} */
+
+
 .banner_wrapper .header-img-section img {
   width: 100%;
   animation: float 5s ease-in-out infinite;

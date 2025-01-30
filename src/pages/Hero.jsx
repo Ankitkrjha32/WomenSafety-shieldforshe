@@ -2,6 +2,7 @@ import React from 'react'
 import lgsmallpic from '../images/lgsmallpic.png'
 import '../styles/hero.css'
 import { Link } from 'react-router-dom'
+import '../../src/App.css'
 
 const Hero = () => {
     return (
@@ -16,7 +17,7 @@ const Hero = () => {
                             <p className="banner-subtitle">Women Safety our Priority In Delhi</p>
                             <h1 className="banner-title">Join us in making <span >Delhi a safer place for women</span>  every day and everywhere.</h1>
                             <div className="learn-more-btn-section" >
-                                <Link to='/emergency' style={{backgroundColor:"red"}} className="nav-link learn-more-btn btn-header" href="#car">SOS</Link>
+                                <Link to='/emergency' style={{backgroundColor:" rgb(216, 15, 15)"}} className="learn-more-btn btn-header " href="#car">SOS</Link>
                             </div>
                         </div>
                     </div>

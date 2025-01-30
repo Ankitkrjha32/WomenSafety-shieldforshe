@@ -9,6 +9,7 @@
     top: 15px; /* Add margin for Navbar */
     left: 0;
     width: 100%; /* Full width */
+    /* background-color: red; */
     height: calc(100vh - 15px); /* Full height minus Navbar height */
     display: flex;
     align-items: center;
@@ -21,6 +22,7 @@
   .sheride-image {
     max-width: 100%; /* Scale image to fit width */
     max-height: 100%; /* Scale image to fit height */
+    background-color: rgb(221, 101, 165);
     object-fit: contain; /* Maintain aspect ratio without zooming or cropping */
     border: none;
   }
@@ -30,6 +32,7 @@
     .sheride-container {
       display: block; /* Show only on mobile screens */
       position: fixed;
+      /* background-color: rgb(218, 2, 38); */
       top: 0;
       left: 0;
       width: 100%; /* Full screen width */
