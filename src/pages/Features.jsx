@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/features.css";
-import "../styles/features.css";
 import search from "../gifs/search.gif";
 import puzzle from "../gifs/puzzle.gif";
 import statis from "../gifs/statis.gif";
@@ -13,83 +12,80 @@ const Features = () => {
   return (
     <div>
       <div className="features-wrapper">
-        <img src={lgpic} alt="" style={{ width: "100%" }} />
+        <img src={lgpic} alt="Large Profile" style={{ width: "100%" }} />
       </div>
       <section id="features" className="features_wrapper">
         <div className="container">
           <div className="row">
             <div className="col-12 text-center mb-5">
-              <p className="features_subtitle">Women Driving</p>
-              <h2 className="features_title">Our Feature</h2>
+              <p className="features_subtitle">
+                AI- and ML-Powered Platform for Women’s Safety
+              </p>
+              <h2 className="features_title">
+                Our one-stop platform is designed to enhance women’s safety
+                through the following features:
+              </h2>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-1 text-center header-img-section">
-                <img src={search} width={150} />
-                <h3 className="mt-4">Emergency Mail Alert</h3>
+                <img src={search} alt="Real-Time Crime Detection" width={150} />
+                <h3 className="mt-4">Real-Time Crime Detection</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  We take your security seriously, and that's why we've
-                  implemented Mailing systems. Your information is safeguarded
-                  with the latest encryption technology, ensuring your Safety
-                  and security.Allowing users to track loved ones!
+                  Integration of AI-enabled CCTV systems using computer vision
+                  and ML algorithms to analyze live video feeds for detecting
+                  suspicious activities like harassment or unauthorized
+                  intrusions. Gesture and behavior recognition systems are
+                  trained to identify distress signals and report incidents in
+                  real time to authorities.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-2 text-center header-img-section">
-                <img src={puzzle} width={150} />
-                <h3 className="mt-4">Emergency Service support</h3>
+                <img src={puzzle} alt="Emergency Service Support" width={150} />
+                <h3 className="mt-4">Safety Zone Classification Using ML:</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  Get ready to explore every angle, every detail, and every
-                  curve of Secuity. Get email and mobile notification when
-                  person is in danger by just one tap and all SOS will be sent
-                  with locations with precise locations{" "}
+                Classification of public spaces into Red (unsafe), Yellow (moderately safe), and Green (safe) zones based on historical crime data, real-time feedback, and crowd-sourced inputs.Predictive ML models identify potential hotspots for crimes based on trends and patterns.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-1 text-center header-img-section">
-                <img src={statis} width={150} />
+                <img src={statis} alt="Incident Reporting" width={150} />
                 <h3 className="mt-4">Incident Reporting</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  We take your Community seriously, and that's why we've
-                  implemented Incident reporting for community. Your detail and
-                  information is safeguarded with the latest encryption
-                  technology, ensuring your details to be private.
+                  We take your community seriously, and that's why we've
+                  implemented incident reporting. Your details are safeguarded
+                  with the latest encryption technology to ensure privacy.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-2 text-center header-img-section">
-                <img src={noti} width={150} />
-                <h3 className="mt-4">Live location </h3>
+                <img src={noti} alt="Live Location" width={150} />
+                <h3 className="mt-4">Street Lighting Optimization</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  With the help of latest technology and devices available
-                  widely in market we use live location to track the victim and
-                  safeguard her form the unnecessary threats and keep them safe.
+                IoT-enabled smart lighting systems connected to the platform provide real-time updates on lighting conditions.ML-based prioritization of poorly lit areas for urgent repair based on safety zone classifications and user feedback.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-1 text-center header-img-section">
-                <img src={rock} width={150} />
-                <h3 className="mt-4">Emergency Chat</h3>
+                <img src={rock} alt="Emergency Chat" width={150} />
+                <h3 className="mt-4">SheRide</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  When there is emergency you need help in every way possbile
-                  our operators connected with goverment offcials will connect
-                  you and help you get of that unnecessary situation.
+                A transport feature offering bike taxi services for women by women, integrated with safety protocols such as GPS tracking, panic buttons, and automated route alerts to nearby police stations.Personalized safety recommendations using AI for route optimization based on safety zone data.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
               <div className="ft-2 text-center header-img-section">
-                <img src={proct} width={150} />
-                <h3 className="mt-4">Mail services</h3>
+                <img src={proct} alt="Mail Services" width={150} />
+                <h3 className="mt-4">Comprehensive Crime Reporting and Emergency Assistance:</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                  Get email to explore every angle, every detail, and every
-                  curve of your the app with the mail services they prompt when
-                  your nearby ones are in danger or the loved ones are in danger.
+                One-tap reporting of crimes integrated with NLP-based chatbots for instant communication in multiple languages.AI-powered predictive analytics to optimize resource allocation for emergency responses.
                 </p>
               </div>
             </div>

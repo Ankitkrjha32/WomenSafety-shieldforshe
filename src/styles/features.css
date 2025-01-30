@@ -1,6 +1,7 @@
 .features_wrapper {
   padding: 100px 0 80px;
   overflow-x: hidden;
+  font-family: sans-serif;
 }
 
 .features_wrapper .features_subtitle {
@@ -8,7 +9,7 @@
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 5px;
-  color: rgb(111, 0, 215);
+  color: rgb(75, 215, 0);
 }
 .features_wrapper .features_title {
   font-weight: 800;
@@ -31,12 +32,12 @@
   color: #101010;
 }
 .features_wrapper .ft-1 {
-  background: #ba9aff;
+  background: #e9d44b;
   padding: 40px;
   border-radius: 15px;
 }
 .features_wrapper .ft-2 {
-  background: #9e63ff;
+  background: #6cdf78;
   padding: 40px;
   border-radius: 15px;
 }
