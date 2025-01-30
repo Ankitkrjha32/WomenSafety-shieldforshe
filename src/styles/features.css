@@ -7,7 +7,7 @@
 .features_wrapper .features_subtitle {
   font-size: 20px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.1;
   margin-bottom: 5px;
   color: rgb(75, 215, 0);
 }
@@ -54,6 +54,7 @@
 }
 
 .header-img-section img {
+  
   animation: float 5s ease-in-out infinite;
 }
 
