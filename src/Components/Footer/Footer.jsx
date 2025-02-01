@@ -27,7 +27,7 @@ const Footer = (props) => {
                   <div className="col-lg-4 px-lg-5 mb-4 mb-lg-0">
                     <h3 className="footer_title">Contact</h3>
                     <p className="footer_text">
-                      <a>SheildForShe@gmail.com</a>
+                      <a>ShieldForShe@gmail.com</a>
                       <br />
                       <a className="footer-address">
                         DELHI SKILL AND ENTERPENEURSHIP UNIVERSITY, <br />
@@ -70,12 +70,12 @@ const Footer = (props) => {
                   <div className="col-lg-4 px-lg-5 mb-4 mb-lg-0">
                     <h3 className="footer_title">Contact</h3>
                     <p className="footer_text">
-                    <a>SheildForShe@gmail.com</a>
+                    <a>ShieldForShe@gmail.com</a>
                       <br />
                       <a className="footer-address">
-                        DELHI SKILL AND ENTERPENEURSHIP UNIVERSITY, <br />
-                        OKHLA  <br />
-                        DELHI, India
+                        Delhi Skill and Enterpreneurship University, <br />
+                         <br />
+                        
                       </a>
                     </p>
                   </div>
