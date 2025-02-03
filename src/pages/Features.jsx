@@ -35,7 +35,7 @@ const Features = () => {
                 <img src="https://static.vecteezy.com/system/resources/previews/036/259/520/non_2x/ai-generated-wall-mount-cctv-security-camera-isolated-on-transparent-background-free-png.png" alt="Real-Time Crime Detection" width={150} height={130} />
                 <h3 className="mt-4">Real-Time Crime Detection</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
-                We will integrate our solution with existing CCTV cameras at the server level, processing RTPS footage in real time to detect suspicious activities like harassment or unauthorized intrusions. Using computer vision and ML algorithms, gesture and behavior recognition models will identify distress signals and trigger instant alerts. Facial recognition can further enhance public safety by tracking individuals of interest.
+                We will integrate our solution with existing CCTV cameras at the server level, processing RTPS footage in real time to detect suspicious activities like harassment or unauthorized intrusions. Using computer vision and ML algorithms, gesture and behavior recognition models identify distress signals and trigger instant alerts. Facial recognition can further enhance public safety
                 </p>
               </div>
             </div>
@@ -64,7 +64,15 @@ const Features = () => {
                 <h3 className="mt-4">Street Lighting Optimization</h3>
                 <p className="features_text" style={{ textAlign: "justify" }}>
 
-                Existing cameras detect luminous intensity, while user and authority inputs provide real-time data on working lights. ML algorithms prioritize poorly lit areas for urgent repair, considering safety classifications and feedback. Smart analysis ensures well-lit pathways, reducing crime risks in vulnerable locations.                </p>
+                Existing cameras analyze luminous intensity, while real-time inputs from users and authorities provide continuous updates on streetlight functionality. ML algorithms identify and prioritize poorly lit areas for urgent repairs, considering safety classifications and feedback. Smart analysis ensures well-lit pathways, enhancing security and significantly reducing crime risks in vulnerable locations.
+
+
+
+
+
+
+
+</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mb-5">
